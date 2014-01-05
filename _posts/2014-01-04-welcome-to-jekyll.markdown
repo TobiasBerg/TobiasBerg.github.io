@@ -1,16 +1,12 @@
 ---
 layout: post
-title:  "Testing post"
+title:  "The blog is online again"
 date:   2014-01-04 16:45:32
 categories: Testing
 ---
 
-You'll find this post in your `_posts` directory - edit this post and re-build (or run with the `-w` switch) to see your changes!
-To add new posts, simply add a file in the `_posts` directory that follows the convention: YYYY-MM-DD-name-of-post.ext.
+The blog is finally up again after being down for quite a while.
+After thinking about writing a new blog from scratch I decided to try out Jekyll hosted on Github pages instead.
+I’m working on some essays but I’m not sure when they’ll be ready.
 
-Jekyll also offers powerful support for code snippets:
-
-Check out the [Jekyll docs][jekyll] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll's GitHub repo][jekyll-gh].
-
-[jekyll-gh]: https://github.com/mojombo/jekyll
-[jekyll]:    http://jekyllrb.com
+Until then stay tuned!
