@@ -46,10 +46,15 @@ a:visited { color: #000; }
 
 .posts li a {
     text-decoration: none;
+    color: #000;
 }
 
 .posts li a:hover {
     text-decoration: underline;
+}
+
+.posts li a:visited {
+    color: #585858;
 }
 
 .posts span {
