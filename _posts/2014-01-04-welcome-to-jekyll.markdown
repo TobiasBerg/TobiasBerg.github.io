@@ -2,7 +2,7 @@
 layout: post
 title:  "The blog is online again"
 date:   2014-01-04 16:45:32
-categories: Testing
+categories: Blog
 ---
 
 The blog is finally up again after being down for quite a while.
