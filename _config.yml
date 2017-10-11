@@ -1,3 +1,31 @@
-name: Tobias Berg
-markdown: redcarpet
-highlighter: rouge
+# Permalinks
+permalink:      /:year-:month-:day/:title
+
+# Setup
+title:          tbt.io
+paginate:       5
+baseurl:        ""
+url:            "https://tbt.io"
+
+# Assets
+sass:
+  sass_dir:     _sass
+  style:        :compressed
+
+# Build settings
+markdown:       kramdown
+
+# About
+author:
+  name:         Tobias Berg
+  url:          http://tbt.io
+  email:        root@tbt.io
+
+# Custom vars
+version:        2.0.0
+github:
+  repo:         https://github.com/TobiasBerg/TobiasBerg.github.io
+
+# Gems
+gems:
+  - jekyll-paginate

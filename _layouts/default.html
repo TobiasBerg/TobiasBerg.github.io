@@ -1,45 +1,40 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title>{{ page.title }}</title>
-        <meta name="viewport" content="width=device-width">
+<html lang="en">
 
-        <!-- syntax highlighting CSS -->
-        <link rel="stylesheet" href="/css/syntax.css">
+  {% include head.html %}
 
-        <!-- Custom CSS -->
-        <link rel="stylesheet" href="/css/main.css">
-				<link href='http://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
-    </head>
-    <body>
-        <div class="site">
-          <div class="header">
-            <h1 class="title"><a href="/">{{ site.name }}</a></h1>
-          </div>
+  <body>
+    <nav class="nav">
+      <div class="nav-container">
+        <a href="{{ site.baseurl }}/">
+          <h2 class="nav-title">{{ site.title }}</h2>
+        </a>
+      </div>
+    </nav>
 
-          {{ content }}
+    <main>
+      {{ content }}
+    </main>
 
-          <div class="footer">
-            <div class="contact">
-              <p>
-                <a href="https://github.com/TobiasBerg">Github</a>
-								&nbsp;
-                <a href="https://twitter.com/TobiasBerg">Twitter</a>
-                &nbsp;
-                <a href="https://www.last.fm/user/TobiasBerg">Last.fm</a>
-              </p>
-            </div>
-          </div>
-        </div>
-          <script async src="https://www.googletagmanager.com/gtag/js?id=UA-107926891-1"></script>
-          <script>
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
+    <footer>
+      <div class="contact">
+        <p>
+          <a href="https://github.com/TobiasBerg">Github</a>
+          &nbsp;
+          <a href="https://twitter.com/TobiasBerg">Twitter</a>
+          &nbsp;
+          <a href="https://www.last.fm/user/TobiasBerg">Last.fm</a>
+        </p>
+      </div>
+    </footer>
 
-            gtag('config', 'UA-107926891-1');
-          </script>
-    </body>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-107926891-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-107926891-1');
+    </script>
+  </body>
 </html>
