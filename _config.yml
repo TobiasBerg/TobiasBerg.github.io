@@ -27,5 +27,5 @@ github:
   repo:         https://github.com/TobiasBerg/TobiasBerg.github.io
 
 # Gems
-gems:
+plugins:
   - jekyll-paginate
